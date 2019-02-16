@@ -1,0 +1,90 @@
+.header
+  &__top
+    background: $primary2
+    box-shadow: -2px -0.1px 6px 0 rgba(135, 135, 135, 0.35)
+    padding: 3px 0
+    ul
+      display: flex
+      justify-content: space-around
+      align-items: center
+      li
+        a
+          color: white
+          text-decoration: none
+          display: block
+    &__social
+      display: flex
+      align-content: center
+      a
+        color: white
+        display: inline-block
+        margin-left: 11px
+        text-decoration: none
+        i
+          font-size: 29px
+          display: block
+  &__middle
+    padding: 20px 0
+    &__phone
+      display: flex
+      justify-content: space-between
+      align-items: center
+      i
+        font-size: 14px
+        color: $primary2
+        display: block
+      div
+
+        a
+          color: $primary2
+          text-decoration: none
+          display: block
+          &:hover
+            text-decoration: underline
+    &__call
+      display: flex
+      justify-content: space-between
+      margin-left: 20px
+      a
+        font-size: 20px
+        text-decoration: none
+        color: $primary2
+        display: flex
+        align-items: center
+        justify-content: space-between
+      i
+        font-size: 70px
+        margin-right: 10px
+  &__bottom
+    box-shadow: -2px -0.1px 6px 0 rgba(135, 135, 135, 0.35)
+    padding: 20px 0
+    nav
+      ul
+        display: flex     
+        justify-content: space-between
+        li
+          a
+            color: black
+            text-decoration: none
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            font-size: 17px
+            font-weight: bold
+            line-height: 1.53
+            div
+              height: 65px
+              display: flex
+              align-items: center
+              i
+                color: $primary2
+          &:last-child
+            position: relative
+            &:before
+              content: ''
+              border-left: 1px solid #d1d1d1
+              position: absolute
+              left: -28px
+              top: 0
+              height: 100%
