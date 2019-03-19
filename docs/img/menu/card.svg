@@ -1,0 +1,11 @@
+<svg id="Слой_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+    <style>
+        .st0{fill:none;stroke:#9b7948;stroke-width:16;stroke-miterlimit:10}
+    </style>
+    <path class="st0" d="M445.5 378h-391c-6.6 0-12-5.4-12-12V148c0-6.6 5.4-12 12-12h391c6.6 0 12 5.4 12 12v218c0 6.6-5.4 12-12 12z"/>
+    <path class="st0" d="M42.5 233H451"/>
+    <path class="st0" d="M42.5 185H451"/>
+    <path class="st0" d="M80 334h118"/>
+    <path class="st0" d="M80 295h118"/>
+    <ellipse class="st0" cx="371.5" cy="312" rx="29.5" ry="28"/>
+</svg>

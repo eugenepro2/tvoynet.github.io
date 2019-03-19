@@ -9,14 +9,28 @@
   font-style: normal;
 }
 
-$icon-call24: "\EA01";
-$icon-facebook: "\EA02";
-$icon-infinity: "\EA03";
-$icon-instagram: "\EA04";
-$icon-next: "\EA05";
-$icon-phone: "\EA06";
-$icon-prev: "\EA07";
-$icon-recall: "\EA08";
+$icon-call: "\EA01";
+$icon-call24: "\EA02";
+$icon-card: "\EA03";
+$icon-computer: "\EA04";
+$icon-email: "\EA05";
+$icon-facebook: "\EA06";
+$icon-facebookc: "\EA07";
+$icon-help: "\EA08";
+$icon-infinity: "\EA09";
+$icon-instagram: "\EA0A";
+$icon-instagramc: "\EA0B";
+$icon-key: "\EA0C";
+$icon-login: "\EA0D";
+$icon-next: "\EA0E";
+$icon-phone: "\EA0F";
+$icon-phone_call: "\EA10";
+$icon-plug: "\EA11";
+$icon-prev: "\EA12";
+$icon-recall: "\EA13";
+$icon-settings: "\EA14";
+$icon-speed: "\EA15";
+$icon-tv: "\EA16";
 
 
 %icon {
@@ -35,11 +49,25 @@ $icon-recall: "\EA08";
   display: inline-block;
 }
 
+.icon-call:before { content: $icon-call; }
 .icon-call24:before { content: $icon-call24; }
+.icon-card:before { content: $icon-card; }
+.icon-computer:before { content: $icon-computer; }
+.icon-email:before { content: $icon-email; }
 .icon-facebook:before { content: $icon-facebook; }
+.icon-facebookc:before { content: $icon-facebookc; }
+.icon-help:before { content: $icon-help; }
 .icon-infinity:before { content: $icon-infinity; }
 .icon-instagram:before { content: $icon-instagram; }
+.icon-instagramc:before { content: $icon-instagramc; }
+.icon-key:before { content: $icon-key; }
+.icon-login:before { content: $icon-login; }
 .icon-next:before { content: $icon-next; }
 .icon-phone:before { content: $icon-phone; }
+.icon-phone_call:before { content: $icon-phone_call; }
+.icon-plug:before { content: $icon-plug; }
 .icon-prev:before { content: $icon-prev; }
 .icon-recall:before { content: $icon-recall; }
+.icon-settings:before { content: $icon-settings; }
+.icon-speed:before { content: $icon-speed; }
+.icon-tv:before { content: $icon-tv; }

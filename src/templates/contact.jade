@@ -1,0 +1,52 @@
+---
+title: твойнет
+---
+extends layouts/_layout
+block content
+  section.contact
+    .container
+      .row
+        .col-xs-12
+          .heading
+            h2 Контакты:
+        .col-xs-12
+          .contact__block
+            .row
+              .col-md-6
+                .contact__block__image
+                  img(src="img/contact.png", alt="")
+              .col-md-6
+                .contact__block__phone
+                  a(href="#") (061) 221-01-10
+                    span (многоканальный)
+                  a(href="#") (068) 221-01-10
+                    span Kyivstar (многоканальный)
+                  a(href="#") (050) 550-01-10
+                    span MTC-Vodafon
+                  a(href="#") (073) 550-01-10
+                    span Lifecell
+                .contact__block__email
+                  a(href="#")
+                    i.icon.icon-email
+                    p office@zp.ua
+                    span (по техническим вопосам)
+                  a(href="#")
+                    i.icon.icon-email
+                    p abuse@tvoi.net.ua
+                    span (жалобы и предложения)
+                .contact__block__form
+                  h2 
+                    i.icon.icon-phone_call 
+                    | Перезвоните мне
+                  form(action="")
+                    input(type="text" placeholder="(ХХХ) ХХХ-ХХ-ХХ")
+                    input(type="text" placeholder="Имя")
+                    input(type="submit", value="Жду звонка")
+                .contact__block__text
+                  h3 Мы готовы ответить на 
+                    p Ваши вопросы 
+                      span всегда!
+                  
+
+
+                

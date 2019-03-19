@@ -1,0 +1,42 @@
+.news
+  padding: 15px 0 30px
+  background: $bg
+  .heading
+    h2
+      margin-bottom: 20px
+      padding-left: 20px
+  .row
+    justify-content: space-between
+  &__block
+    width: 32.5%
+    background: white
+    padding: 15px 17px
+    border-bottom: 2px solid #c4c4c4
+  article
+    padding-bottom: 20px
+    header
+      img
+        +object-fit(cover)
+        width: 100%
+        height: 215px
+        margin-bottom: 15px
+      h1
+        font-size: 16px
+        color: #323232
+        margin-bottom: 40px
+    main
+      p
+        font-size: 13px
+        margin-bottom: 25px
+    footer
+      display: flex
+      justify-content: space-between
+      span
+        font-size: 14px
+        font-weight: 300
+        color: $grey2
+      a
+        font-size: 14px
+        color: $primary
+        text-decoration: none
+

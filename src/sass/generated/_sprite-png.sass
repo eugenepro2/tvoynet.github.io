@@ -1,13 +1,5 @@
 $icons: (0:0)
-$icons: map-merge($icons,('computer': (X: -60px, Y:-56px, W: 41px, H: 45px, TW: 203px, TH: 154px, IMG: '../img/sprite.png')))
-$icons: map-merge($icons,('credit-card': (X: 0px, Y:-124px, W: 46px, H: 30px, TW: 203px, TH: 154px, IMG: '../img/sprite.png')))
-$icons: map-merge($icons,('help': (X: -60px, Y:0px, W: 46px, H: 46px, TW: 203px, TH: 154px, IMG: '../img/sprite.png')))
-$icons: map-merge($icons,('mobile-phone': (X: 0px, Y:-56px, W: 39px, H: 58px, TW: 203px, TH: 154px, IMG: '../img/sprite.png')))
-$icons: map-merge($icons,('plug': (X: -167px, Y:-54px, W: 23px, H: 42px, TW: 203px, TH: 154px, IMG: '../img/sprite.png')))
-$icons: map-merge($icons,('settings': (X: -116px, Y:0px, W: 41px, H: 41px, TW: 203px, TH: 154px, IMG: '../img/sprite.png')))
-$icons: map-merge($icons,('speed': (X: -116px, Y:-51px, W: 41px, H: 41px, TW: 203px, TH: 154px, IMG: '../img/sprite.png')))
-$icons: map-merge($icons,('tv': (X: 0px, Y:0px, W: 50px, H: 46px, TW: 203px, TH: 154px, IMG: '../img/sprite.png')))
-$icons: map-merge($icons,('user': (X: -167px, Y:0px, W: 36px, H: 44px, TW: 203px, TH: 154px, IMG: '../img/sprite.png')))
+$icons: map-merge($icons,('user': (X: 0px, Y:0px, W: 36px, H: 44px, TW: 36px, TH: 44px, IMG: '../img/sprite.png')))
 
 
 // Gets an attribute from the sass map
@@ -43,57 +35,10 @@ $icons: map-merge($icons,('user': (X: -167px, Y:0px, W: 36px, H: 44px, TW: 203px
 @mixin sr($i)
   +sprite-retina($i)  
 
-
-.icon-computer
- width: 41px
- height: 45px
- background-image: url('../img/sprite.png')
- background-position: -60px -56px
-
-.icon-credit-card
- width: 46px
- height: 30px
- background-image: url('../img/sprite.png')
- background-position: 0px -124px
-
-.icon-help
- width: 46px
- height: 46px
- background-image: url('../img/sprite.png')
- background-position: -60px 0px
-
-.icon-mobile-phone
- width: 39px
- height: 58px
- background-image: url('../img/sprite.png')
- background-position: 0px -56px
-
-.icon-plug
- width: 23px
- height: 42px
- background-image: url('../img/sprite.png')
- background-position: -167px -54px
-
-.icon-settings
- width: 41px
- height: 41px
- background-image: url('../img/sprite.png')
- background-position: -116px 0px
-
-.icon-speed
- width: 41px
- height: 41px
- background-image: url('../img/sprite.png')
- background-position: -116px -51px
-
-.icon-tv
- width: 50px
- height: 46px
- background-image: url('../img/sprite.png')
- background-position: 0px 0px
-
-.icon-user
- width: 36px
- height: 44px
- background-image: url('../img/sprite.png')
- background-position: -167px 0px
+//
+//.icon-user
+//  width: 36px
+//  height: 44px
+//  background-image: url('../img/sprite.png')
+//  background-position: 0px 0px
+//

@@ -73,6 +73,8 @@
   "dependencies": {
     "object-fit-images": "^3.2.4",
     "owl.carousel": "^2.3.4",
+    "select": "^1.1.2",
+    "selectize": "^0.12.6",
     "swiper": "^4.4.6"
   }
 }

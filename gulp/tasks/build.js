@@ -6,7 +6,7 @@ function build(cb) {
     runSequence(
         'clean',
         'iconfont',
-        'sprite:svg',
+        // 'sprite:svg',
         'sprite:png',
         'svgo',
         'sass',

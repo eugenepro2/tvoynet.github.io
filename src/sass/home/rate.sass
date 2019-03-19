@@ -1,14 +1,20 @@
 .rate
   padding: 25px 0
+  background: $bg
+  .white
+    background: white
+    padding: 30px 20px
+    padding-bottom: 35px
   .heading
     h2
-      margin-bottom: 60px
+      margin-bottom: 25px
   &__block
     width: 100%
     border: 1px solid #d4d4d4
     padding: 20px 17px
     overflow: hidden
     position: relative
+    margin-bottom: 35px
     &__sale
       width: 150px
       height: 30px
@@ -30,6 +36,8 @@
       flex-direction: column
       justify-content: center
       position: relative
+    &__price
+      border-bottom: none
     &__rate
       height: 110px
       h4
@@ -89,3 +97,6 @@
       height: 100%
       position: relative
       bottom: 10px
+  &__more
+    display: flex
+    justify-content: center

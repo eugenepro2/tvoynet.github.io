@@ -1,8 +1,15 @@
 body
   font-family: 'Lato'
+  background: $bg
 
 .flex
   display: flex
+
+.container
+  max-width: 1200px
+  width: 100% !important
+  padding: 0 15px
+  box-sizing: border-box
 
 .container, .row
   height: 100%
@@ -19,18 +26,62 @@ body
     text-align: left
     color: $primary
 
+p
+  font-size: 22px
+  font-weight: 300
+  color: $grey
+  line-height: 1.36
+
 .btn
   background: white
   border: 2px solid $primary
-  padding: 13px 70px
+  width: 230px
+  height: 43px
+  display: flex
+  align-items: center
+  justify-content: center
   color: black
   font-size: 18px
   text-decoration: none
   border-radius: 3px
   transition: all 0.3s
-  display: block
-  text-align: center
   &:hover
     background: $primary
     color: white
+  &-secondary
+    background: $primary
+    border: 2px solid $primary
+    color: #fff
+    &:hover
+      background: #fff
+      color: black
 
+
+form
+  input
+    border-radius: 3px
+    width: 230px
+    border: 1px solid #d4d4d4
+    font-size: 16px
+    color: $grey3
+    height: 43px
+    padding: 0 15px
+    max-height: 43px
+    font-weight: 300
+    display: block
+    margin-bottom: 10px
+    &::placeholder
+      color: $grey3
+  input[type="submit"]
+    width: 230px
+    height: 43px
+    display: flex
+    align-items: center
+    justify-content: center
+    font-size: 18px
+    text-decoration: none
+    border-radius: 3px
+    transition: all 0.3s
+    background: $primary
+    border: 2px solid $primary
+    color: #fff

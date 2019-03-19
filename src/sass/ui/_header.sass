@@ -1,4 +1,5 @@
 .header
+  background: white
   &__top
     background: $primary2
     box-shadow: -2px -0.1px 6px 0 rgba(135, 135, 135, 0.35)
@@ -55,6 +56,9 @@
       i
         font-size: 70px
         margin-right: 10px
+      p
+        color: $primary2
+        font-weight: 400
   &__bottom
     box-shadow: -2px -0.1px 6px 0 rgba(135, 135, 135, 0.35)
     padding: 20px 0
@@ -73,6 +77,11 @@
             font-size: 17px
             font-weight: bold
             line-height: 1.53
+            transition: all 0.5s
+            &:hover
+              transform: scale(1.1)
+            img
+              width: 70px
             div
               height: 65px
               display: flex
