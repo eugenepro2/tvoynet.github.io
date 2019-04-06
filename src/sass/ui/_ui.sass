@@ -25,6 +25,14 @@ body
     letter-spacing: normal
     text-align: left
     color: $primary
+    a
+      color: inherit
+      text-decoration: none
+      border-bottom: 2px solid transparent
+      transition: border 0.3s
+      &:hover
+        border-bottom: 2px solid $primary
+        
 
 p
   font-size: 22px
@@ -71,7 +79,7 @@ form
     display: block
     margin-bottom: 10px
     &::placeholder
-      color: $grey3
+      color: #cccccc
   input[type="submit"]
     width: 230px
     height: 43px
