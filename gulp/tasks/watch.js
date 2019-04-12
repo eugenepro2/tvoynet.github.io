@@ -6,7 +6,7 @@ gulp.task('watch',
     
     'jade:watch',
     'iconfont:watch',
-    // 'sprite:svg:watch',
+    'sprite:svg:watch',
     'sprite:png:watch',
     'svgo:watch',
     // 'list-pages:watch',

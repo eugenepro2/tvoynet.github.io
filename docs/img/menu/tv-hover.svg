@@ -1,0 +1,11 @@
+<svg id="Слой_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+    <style>
+        .st0{fill:none;stroke:#9b7948;stroke-width:16;stroke-miterlimit:10}.st1{fill:#9b7948}
+    </style>
+    <path class="st0" d="M415 369H93c-6.6 0-12-5.4-12-12V146c0-6.6 5.4-12 12-12h322c6.6 0 12 5.4 12 12v211c0 6.6-5.4 12-12 12z"/>
+    <path class="st0" d="M315 332H122c-6.6 0-12-5.4-12-12V180c0-6.6 5.4-12 12-12h193c6.6 0 12 5.4 12 12v140c0 6.6-5.4 12-12 12z"/>
+    <circle class="st1" cx="376.9" cy="218.1" r="15"/>
+    <circle class="st1" cx="376.9" cy="279.1" r="15"/>
+    <path class="st0" d="M190 70l64 64"/>
+    <path class="st0" d="M254 134l87-96"/>
+</svg>

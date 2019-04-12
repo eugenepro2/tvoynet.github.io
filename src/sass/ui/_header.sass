@@ -1,100 +1,139 @@
 .header
-  background: white
-  &__top
-    background: $primary2
-    box-shadow: -2px -0.1px 6px 0 rgba(135, 135, 135, 0.35)
-    padding: 3px 0
-    ul
-      display: flex
-      justify-content: space-around
-      align-items: center
-      li
-        a
-          color: white
-          text-decoration: none
-          display: block
-          font-size: 13px
-    &__social
-      display: flex
-      align-content: center
-      a
-        color: white
-        display: inline-block
-        margin-left: 11px
-        text-decoration: none
-        i
-          font-size: 23px
-          display: block
-  &__middle
-    padding: 20px 0
-    &__phone
-      display: flex
-      justify-content: space-between
-      align-items: center
-      margin-right: 20px
-      i
-        font-size: 14px
-        color: $primary2
-        display: block
-      div
-        a
-          color: $primary2
-          text-decoration: none
-          display: block
-          font-size: 14px
-          &:hover
-            text-decoration: underline
-    &__call
-      display: flex
-      justify-content: space-between
-      a
-        text-decoration: none
-        color: $primary2
-        display: flex
-        align-items: center
-        justify-content: space-between
-      i
-        font-size: 53px
-        margin-right: 10px
-      p
-        color: $primary2
-        font-weight: 400
-        font-size: 15px
-  &__bottom
-    box-shadow: -2px -0.1px 6px 0 rgba(135, 135, 135, 0.35)
-    padding: 15px 0
-    nav
-      ul
-        display: flex     
-        justify-content: space-between
-        li
-          a
-            color: black
-            text-decoration: none
-            display: flex
-            flex-direction: column
-            justify-content: center
-            align-items: center
-            font-size: 13px
-            font-weight: bold
-            line-height: 1.53
-            transition: all 0.5s
-            &:hover
-              transform: scale(1.1)
-            img
-              width: 50px
-            div
-              height: 50px
-              display: flex
-              align-items: center
-              i
-                color: $primary2
-          &:last-child
-            position: relative
-            &:before
-              content: ''
-              border-left: 1px solid #d1d1d1
-              position: absolute
-              left: -28px
-              top: 0
-              height: 100%
+	background: white
+	&__top
+		background: $primary2
+		box-shadow: -2px -0.1px 6px 0 rgba(135, 135, 135, 0.35)
+		padding: 3px 0
+		ul
+			display: flex
+			justify-content: space-around
+			align-items: center
+			li
+				a
+					color: white
+					text-decoration: none
+					display: block
+					font-size: 13px
+		&__social
+			display: flex
+			align-content: center
+			a
+				color: white
+				display: inline-block
+				margin-left: 11px
+				text-decoration: none
+				i
+					font-size: 23px
+					display: block
+	&__middle
+		padding: 20px 0
+		&__phone
+			display: flex
+			justify-content: space-between
+			align-items: center
+			margin-right: 20px
+			i
+				font-size: 14px
+				color: $primary2
+				display: block
+			div
+				a
+					color: $primary2
+					text-decoration: none
+					display: block
+					font-size: 14px
+					&:hover
+						text-decoration: underline
+		&__call
+			display: flex
+			justify-content: space-between
+			a
+				text-decoration: none
+				color: $primary2
+				display: flex
+				align-items: center
+				justify-content: space-between
+			i
+				font-size: 53px
+				margin-right: 10px
+			p
+				color: $primary2
+				font-weight: 400
+				font-size: 15px
+	&__bottom
+		box-shadow: -2px -0.1px 6px 0 rgba(135, 135, 135, 0.35)
+		padding: 15px 0
+		nav
+			ul
+				display: flex     
+				justify-content: space-between
+				li
+					&.hover-1
+						&:hover
+							img
+								animation: hover1 1s ease-in-out
+					&.hover-2
+						.hover
+							opacity: 0
+							position: absolute
+							transition: all 0.3s
+						&:hover
+							.hover
+								opacity: 1
+					&.hover-3
+						.hover
+							opacity: 0
+							position: absolute
+							transition: all 0.3s
+						&:hover
+							.hover
+								opacity: 1
+							a
+								color: #9B7948
+					&.hover-4
+						.hover
+							opacity: 0
+							position: absolute
+						&:hover
+							img
+								opacity: 0
+							.hover
+								opacity: 1
+							
+
+					a
+						color: black
+						text-decoration: none
+						display: flex
+						flex-direction: column
+						justify-content: center
+						align-items: center
+						font-size: 13px
+						font-weight: bold
+						line-height: 1.53
+						transition: all 0.5s
+						img
+							width: 50px
+						div
+							height: 50px
+							display: flex
+							align-items: center
+							i
+								color: $primary2
+					&:last-child
+						position: relative
+						&:before
+							content: ''
+							border-left: 1px solid #d1d1d1
+							position: absolute
+							left: -28px
+							top: 0
+							height: 100%
+
+@keyframes hover1
+	0%
+		transform: scale(1)
+	50%
+		transform: scale(1.2)
+	100%
+		transform: scale(1)
